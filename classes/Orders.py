@@ -1,3 +1,4 @@
+import copy
 class Order:
  
     def __init__(
@@ -46,8 +47,8 @@ class Order:
             # printing the dictionary after each iteration returns expected results
             # results appended to the list "imported" always uses the same row
             # result = (self.__dict__)
-            print(self.__dict__)
-            #imported.append(self.__dict__)
+            
+            imported.append(copy.deepcopy(self.__dict__))
         return imported
         
 
