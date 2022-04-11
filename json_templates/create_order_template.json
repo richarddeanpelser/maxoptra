@@ -1,0 +1,28 @@
+{
+  "referenceNumber": "string",
+  "task": "DELIVERY",
+  "priority": "NORMAL",
+  "vehicleRequirements": [
+    "string"
+  ],
+  "additionalInstructions": "string",
+  "clientName": "string",
+  "customerLocation": {
+    "referenceNumber": "string",
+    "address": "string"
+  },
+  "capacity1": 0,
+  "customFields": {
+    "date": "string",
+    "territory": "schedulingzonename",
+    "cost": "int",
+    "sellingPrice": "int",
+    "accountnumber": "string",
+    "company": "string",
+    "charisma": "string"
+  }
+}
+
+  
+  
+  
